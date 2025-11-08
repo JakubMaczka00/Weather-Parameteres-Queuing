@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @Component
 
 public class WeatherService {
-    private String key = "5cc257dea729ff1b4153d3ca4abd681d";
+    private String key = "key_from_env";
     private GetDataFromApi getDataFromApi;
     @Autowired
     private RabbitTemplate rabbitTemplate;
